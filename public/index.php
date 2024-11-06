@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Upload Image and Appointment Details</h2>
-    <form action="index.php" method="post" enctype="multipart/form-data">
+    <form action="sent.php" method="post" enctype="multipart/form-data">
         <label for="telephone">Telephone:</label>
         <input type="text" name="telephone" id="telephone" required><br><br>
         
