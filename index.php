@@ -1,6 +1,6 @@
 <?php
 // กำหนดค่าตัวแปรสำหรับการเชื่อมต่อฐานข้อมูล
-$servername = "ol5tz0yvwp930510.cbetxkdyhwsb.us-east-1.rds.amazonaws"; // ชื่อเซิร์ฟเวอร์ฐานข้อมูล
+$servername = "ol5tz0yvwp930510.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306"; // ชื่อเซิร์ฟเวอร์ฐานข้อมูล
 $username = "p7j1m0izg1sfw035"; // ชื่อผู้ใช้ฐานข้อมูล
 $password = "xocbu80p4qtxddud"; // รหัสผ่านฐานข้อมูล
 $dbname = "t833q2ronjxp7y9d"; // ชื่อฐานข้อมูลของเรา
