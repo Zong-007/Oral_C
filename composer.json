@@ -3,7 +3,9 @@
     "description": "A brief description of your app",
     "require": {
         "php": "^8.0",
-        "phpmyadmin/phpmyadmin": "^5.1"
+        "phpmyadmin/phpmyadmin": "^5.1",
+        "ext-pdo": "*",
+        "ext-mbstring": "*"
     },
     "autoload": {
         "psr-4": {
