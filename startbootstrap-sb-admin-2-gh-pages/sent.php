@@ -1,9 +1,8 @@
 <?php
-// ดึงค่า DATABASE_URL จาก Heroku หรือ .env
-$dbUrl = getenv('DATABASE_URL'); 
+
 
 // กำหนดค่าตัวแปรสำหรับการเชื่อมต่อฐานข้อมูล
-$servername = "m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws"; // ชื่อเซิร์ฟเวอร์ฐานข้อมูล
+$servername = "m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"; // ชื่อเซิร์ฟเวอร์ฐานข้อมูล
 $username = "p1jryqynwuzez4tj"; // ชื่อผู้ใช้ฐานข้อมูล
 $password = "hbjnf2ffhkcvcnak"; // รหัสผ่านฐานข้อมูล
 $dbname = "ickshh2zl54q79ab"; // ชื่อฐานข้อมูลของเรา
