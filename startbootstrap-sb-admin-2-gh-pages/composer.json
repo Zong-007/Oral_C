@@ -1,1 +1,16 @@
-{}
+{
+    "name": "oral-test",
+    "description": "A simple PHP application on Heroku",
+    "require": {
+        "php": "^7.4",
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "phpdotenv/phpdotenv": "^5.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r 'copy(\".env.example\", \".env\");'"
+        ]
+    }
+}
