@@ -1,9 +1,9 @@
 <?php
 // กำหนดค่าตัวแปรสำหรับการเชื่อมต่อฐานข้อมูล
-$servername = "ol5tz0yvwp930510.cbetxkdyhwsb.us-east-1.rds.amazonaws"; // ชื่อเซิร์ฟเวอร์ฐานข้อมูล
-$username = "p7j1m0izg1sfw035"; // ชื่อผู้ใช้ฐานข้อมูล
-$password = "xocbu80p4qtxddud"; // รหัสผ่านฐานข้อมูล
-$dbname = "t833q2ronjxp7y9d"; // ชื่อฐานข้อมูลของเรา
+$servername = "m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws"; // ชื่อเซิร์ฟเวอร์ฐานข้อมูล
+$username = "p1jryqynwuzez4tj"; // ชื่อผู้ใช้ฐานข้อมูล
+$password = "hbjnf2ffhkcvcnak"; // รหัสผ่านฐานข้อมูล
+$dbname = "ickshh2zl54q79ab"; // ชื่อฐานข้อมูลของเรา
 
 try {
     // สร้างการเชื่อมต่อฐานข้อมูลโดยใช้ PDO
