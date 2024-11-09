@@ -34,7 +34,7 @@ if (isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
     $mobile_no = $_POST['mobile_no']; // รับค่าหมายเลขโทรศัพท์มือถือ
 
     // เพิ่มข้อมูลรูปภาพเป็น BLOB และข้อมูลอื่น ๆ ลงในฐานข้อมูล
-    $stmt = $conn->prepare("INSERT INTO oral_c_data (PicAI, PicAI_Name, Clinic_Tel, Dent_Name, Clinic_Name, AI_Result, User_Name, Meet_Date, Mobile_No ,Trans_Date) 
+    $stmt = $conn->prepare("INSERT INTO Oral_C_data (PicAI, PicAI_Name, Clinic_Tel, Dent_Name, Clinic_Name, AI_Result, User_Name, Meet_Date, Mobile_No ,Trans_Date) 
                             VALUES (:image_data, :image_name, :telephone, :doctor, :clinic, :get_results, :user_name, :appointment, :mobile_no, NOW())");
     $stmt->bindParam(':image_data', $imageData, PDO::PARAM_LOB);
     $stmt->bindParam(':image_name', $_FILES['image']['name']);
