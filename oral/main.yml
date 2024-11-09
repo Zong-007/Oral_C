@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: windows-latest  # ใช้ Windows environment สำหรับการรันงาน
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy to Heroku
+        uses: akhileshns/heroku-deploy@v3.13.15
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "oral-c"  # ชื่อแอปพลิเคชันใน Heroku
+          heroku_email: "ben.530210155@gmail"  # อีเมล์ที่เชื่อมโยงกับ Heroku
